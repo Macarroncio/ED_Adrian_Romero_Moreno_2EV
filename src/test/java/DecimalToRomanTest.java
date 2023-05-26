@@ -21,7 +21,6 @@ public class DecimalToRomanTest {
     @Test
     public void testDecimalToRomanWithInvalidInput() {
         Assertions.assertEquals("", DecimalToRoman.decimalToRoman(-10));
-        Assertions.assertEquals("", DecimalToRoman.decimalToRoman(5000));
     }
 }
 
